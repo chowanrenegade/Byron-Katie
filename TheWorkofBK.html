@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Input Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="radio"] + label {
+            display: inline-block;
+            margin-right: 20px;
+            font-weight: normal;
+        }
+
+        hr {
+		  display: block;
+		  margin-top: 0.5em;
+		  margin-bottom: 0.5em;
+		  margin-left: auto;
+		  margin-right: auto;
+		  border-style: inset;
+		  border-width: 5px;
+}
+    </style>
+</head>
+
+<body>
+
+<p>Do you really want to know the truth? Investigate each of your statements from the
+    Judge-Your-Neighbor Worksheet using the four questions and the turnarounds below.
+    Leave out any statement beginning with "but", "because", or "and". Often you will have
+    several negative judgments about one person. Take each judgment separately through
+    the inquiry process. The Work is meditation. It's about awareness; it's not about
+    trying to change your mind. Let the mind ask the questions, then contemplate. Take
+    your time, go inside, and wait for the deeper answers to surface.</p>
+
+<p>Recall a specific stressful situation. Fill in the
+    blanks below as you allow yourself to mentally
+    revisit the time and place of the stressful situation.
+    In this situation, who angers, confuses, hurts,
+    saddens, or disappoints you, and why?</p>
+
+<p>I am _______________ with ________________
+    because ________________________________________________________________________.</p>
+
+<p>Now question this thought using the four
+    questions and the turnarounds.</p>
+
+<form>
+    <label for="inputBox">Judge your neighbour:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100">
+
+    <label>1 - Is it true? Be still. Wait for the heart's response. (Yes or no. If no, move to 3.):</label>
+    <input type="radio" id="yes" name="choice" value="yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="choice" value="no">
+    <label for="no">No</label><br>
+
+    <label>2 - Can you know for sure that it's true?:</label>
+    <input type="radio" id="yes" name="choice" value="yes">
+    <label for="yes">Yes</label><br>
+    <input type="radio" id="no" name="choice" value="no">
+    <label for="no">No</label><br>
+
+    <label for="inputBox">3 - How do you react, what happens, when you believe that thought? Do you experience anger, stress, or
+        frustration? How do these reactions feel? How do you treat yourself? Does that thought bring stress
+        or peace into your life? Be still as you listen:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+
+    <label for="inputBox">4 - Who would you be without that thought?:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100">
+
+    <p>A statement can be turned around to the self, to the other, and to the opposite. Let yourself fully experience the turnarounds. For each one, find at least three specific, genuine
+        examples where the turnaround is true for you in this situation. This is not about blaming yourself or
+        feeling guilty. It's about discovering alternatives that can bring you peace</p>
+
+    <label for="inputBox">Turnaround 1:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 1:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 2:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 3:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+<hr>
+    <label for="inputBox">Turnaround 2:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 1:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 2:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 3:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+<hr>
+    <label for="inputBox">Turnaround 3:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 1:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 2:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100"><br>
+    <label for="inputBox">Example 3:</label>
+    <input type="text" id="inputBox" name="inputBox" size="100">
+
+</form>
+
+</body>
+
+</html>
+
